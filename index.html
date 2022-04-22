@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 06 JS</title>
+</head>
+<body>
+
+    
+    <b>JS Calculator</b>
+    <br>
+    <br>
+    <form name="calc">
+    <label for="operand1">Operand 1:</label><br>
+    <input type="text" id="o1" name="o1"><br>
+    <label for="operand2">Operand 2:</label><br>
+    <input type="text" id="o2" name="o2" ><br><br>
+
+    <input type="button" value="Submit" onclick="javascript:math();"><br>
+
+    <br>
+
+    <label for="Add">Addition :</label><br>
+    <input type="text" id="r1" name="r1"><br>
+    <label for="Sub">Subtraction:</label><br>
+    <input type="text" id="r2" name="r2" ><br><br>
+
+    <label for="Mul">Multiplication:</label><br>
+    <input type="text" id="r3" name="r3"><br>
+    <label for="Div">Division:</label><br>
+    <input type="text" id="r4" name="r4" ><br><br>
+
+    <input type="button" value="Alert Button" onclick="javascript:alerrt();"><br>
+
+
+
+    </form> 
+
+
+
+    <form name="MINMAX_calc">
+        <br>
+        <b> JS Min max calculator </b><br>
+        <br>
+        <b > First Number:</b> <input type="number" name="firstnum">
+        
+        <br>
+    
+       
+        <b> Second Number:</b> <input type="number" name="secondnum">
+        <br>
+        <b > Third Number</b> <input type="number" name="thirdnum">
+        
+        <br>
+    
+       
+        <b> Fourth Number:</b> <input type="number" name="fourthnum">
+        <br>
+        <b> Fifth Number:</b> <input type="number" name="fifthnum">
+    
+        <br><br>
+    
+        
+    <input type="button" value="Submit" onclick="javascript:Min_Max();">
+   
+
+
+
+
+
+
+    
+
+        <br><br>
+    
+       
+        <b>Min:</b> <input type="text" name="a">      
+        <br>
+        <b>Max:</b> <input type="text" name="b">
+        <br>      
+        <b>Random:</b> <input type="text" name="c">      
+        <br>
+ 
+       </form> 
+
+       <br>
+
+       
+       <h1>   TASK 4 </h1>       
+
+       <br>
+       
+       <p id="line1"></p> 
+       
+       <p id="line2"></p> 
+       
+       <p id="line3"></p> 
+       
+       <p id="line4"></p> 
+       
+       <p id="line5"></p> 
+
+       <p id="line6"></p>
+       
+       <p id="line7"></p> 
+
+       <p id="line8"></p> 
+
+       <script>
+
+           let line1="“Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+           document.getElementById("line1").innerHTML = line1;
+
+           let line2="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+           let l2=line2.bold().big();
+           document.getElementById("line2").innerHTML = l2;
+           
+           let line3="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially";
+           let l3=line3.bold();
+           document.getElementById("line3").innerHTML = l3;
+
+           let line4="Unchanged";
+           let l4=line4.toUpperCase().bold().fontsize(12);
+           document.getElementById("line4").innerHTML = l4;
+
+           let line5="It was popularised in the 1960s with the release of LETRASET sheets containing Lorem Ipsum passages";
+           document.getElementById("line5").innerHTML = line5;
+
+           let line6 = "more recently with desktop publishing software like Aldus  ";
+           let l6 = line6.strike();
+           document.getElementById("line6").innerHTML = l6;
+
+           let line7 = "Page Maker";
+           let l7 = line7.link("https://www.google.com/");
+           document.getElementById("line7").innerHTML = l7;
+
+           let line8="including versions of Lorem Ipsum.”";
+           let l8 = line8.italics();
+           document.getElementById("line8").innerHTML = l8;
+
+           
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+       </script>
+
+
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+</html>
